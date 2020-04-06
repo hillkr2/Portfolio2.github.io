@@ -6,11 +6,12 @@
 /* overflow: auto lets the container stretch to
 accommodate the content */
 body {
-    background: url('file:///Users/kendallh2/Downloads/concrete_seamless/concrete_seamless.png');
+
     font-size: 18px;
+    background-color: black;
     line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
+    color: black;
     
 }
 
@@ -29,10 +30,19 @@ p:last-child {
     margin-bottom: 0;
 }
 
-h1, h2, h3 {
+h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: blue;
+    text-align: center;
+    font-size: 100%;
+    margin-top: 2%;
+}
+
+h3{
+    color: blue;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -42,10 +52,17 @@ h1 {
     padding-bottom: 20px;
 }
 
-h2, h3 {
+ h3 {
     font-size: 22px;
 }
-
+h2{
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 #masterhead {
     background: #ffffff;
     margin: 0 0 30px;
@@ -60,7 +77,7 @@ h2, h3 {
 #logo {
     width: 250px;
     height: 90px;
-    background: #4aaaa5;
+    background: black;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -110,9 +127,17 @@ nav a:first-child {
     height: auto;
     margin-top: 10px;
     float: left;
-    margin-right: 25px;
+    margin-right: 10px;
+    border: blue;
+    border-color: blue;
+    border-style: solid bold;
+    border-width: 50px;
+    border-radius: 100%;
 }
 
+#masterhead{
+    background-color: blue;
+}
 /*sidebar*/
 .sidebar {
     background: #ffffff;
@@ -123,19 +148,25 @@ nav a:first-child {
     border: 1px solid #dddddd;
     margin-bottom: 20px;
 }
-
-h3, sidebar, h2 {
+h3, .sidebar, h2 {
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
 }
-
+#footer{
+    background-color: blue;
+}
+.card{
+    text-align: center;
+}
 .social {
-    width: 62px;
-    height: 62px;
+    width: 32px;
+    height: 32px;
     margin-top: 8px;
     margin-right: 5px;
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 .social:last-child {
@@ -144,11 +175,11 @@ h3, sidebar, h2 {
 
 /*footer*/
 footer {
-    background: #666666;
+    background: blue;
     color: #ffffff;
     padding: 30px 0;
     color: both;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid black;
     color: #cccccc;
     font-size: 12px;
     text-align: center;
@@ -225,7 +256,14 @@ input [type = submit] {
     padding: 10px 30px;
     cursor: pointer;
     }
-
+    .nav-link{
+        color: black;
+    }
+}
+.contact-form{
+    text-align: center;
+    margin-left: 50%;
+}
 @media only screen and (max-width: 980px) {
     .container {
         padding: 0 20px;
@@ -245,6 +283,7 @@ input [type = submit] {
         margin-bottom: 20px;
     }
 }
+
 
 @media only screen and (max-width: 760px) {
     .main-section, .sidebar {
@@ -297,4 +336,3 @@ input [type = submit] {
         margin-left: 0;
     }
 }
-
