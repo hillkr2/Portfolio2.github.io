@@ -256,10 +256,10 @@ input [type = submit] {
     padding: 10px 30px;
     cursor: pointer;
     }
-    .nav-link{
+.nav-link{
         color: black;
     }
-}
+
 .contact-form{
     text-align: center;
     margin-left: 50%;
