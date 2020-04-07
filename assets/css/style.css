@@ -286,7 +286,7 @@ input [type = submit] {
 
 
 @media only screen and (max-width: 760px) {
-    .main-section, .sidebar {
+    .main-section, .sidebar, #masterhead, #portfolio-container {
         max-width: 100%;
     }
 
@@ -315,9 +315,10 @@ input [type = submit] {
 }
 
 @media only screen and (max-width: 640px) {
-    #masthead {
+    #masthead, #portfolio-container {
         position: static;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
+        line-height: 5%;
     }
     header.container {
         padding: 0;
