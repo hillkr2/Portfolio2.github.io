@@ -262,7 +262,7 @@ input [type = submit] {
 
 .contact-form{
     text-align: center;
-    
+
 }
 @media only screen and (max-width: 980px) {
     .container {
@@ -309,6 +309,9 @@ input [type = submit] {
     .auth-image {
         width: 50%;
     }
+}
+#portfolio-container{
+    background-color: skyblue;
 }
 
 @media only screen and (max-width: 640px) {
