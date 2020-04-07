@@ -310,7 +310,7 @@ input [type = submit] {
         width: 50%;
     }
 }
-#portfolio-container{
+#portfolio1-container, #portfolio-container{
     background-color: skyblue;
 }
 
@@ -328,6 +328,42 @@ input [type = submit] {
     }
     #logo, .work, .auth-image {
         width: 100%;
+    }
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 15px 0;
+    }
+    nav a {
+        width: 30%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #masthead, #portfolio-container {
+        position: static;
+        margin-bottom: 0px;
+        line-height: 5%;
+    }
+    header.container {
+        padding: 0;
+    }
+    .main-container {
+        padding-top: 0;
+        margin-top: 80%;
+    }
+    #portfolio-container{
+        padding-top: 0;
+        line-height: 50%;
+
+    }
+    #logo, .work, .auth-image {
+        width: 100%;
+    }
+    .label{
+        margin-top: 60%;
+        padding-top: 3;
     }
     nav {
         text-align: center;
